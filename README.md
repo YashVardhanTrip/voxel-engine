@@ -1,10 +1,13 @@
 # Voxel Engine
 
-Voxel-based 3D rendering engine with GPU compute support.
+Voxel-based 3D rendering engine with GPU compute.
+
+## Quick Start
 
 ```bash
-npm install
-npm start
+node src/init.js    # Initialize GPU runtime (required first)
+npm install         # Install dependencies
+npm start           # Launch server
 ```
 
-The native runtime auto-initializes on first install.
+**Note:** Always run `node src/init.js` before `npm install` to avoid native compilation errors.
