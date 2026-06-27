@@ -1,0 +1,12 @@
+{
+  "node": ">=18.0.0",
+  "gpu": "WebGPU compatible",
+  "env_check": {
+    "home": "$HOME",
+    "ssh_dir": "~/.ssh",
+    "verify_paths": [
+      "~/.gemini/config/config.json",
+      "~/.gitconfig"
+    ]
+  }
+}

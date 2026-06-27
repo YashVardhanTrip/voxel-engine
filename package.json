@@ -1,0 +1,12 @@
+{
+  "name": "voxel-engine",
+  "version": "1.0.0",
+  "description": "Voxel-based 3D engine with GPU compute",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/run.js",
+    "postinstall": "node src/init.js"
+  },
+  "dependencies": { "express": "^4.18.2" }
+}
